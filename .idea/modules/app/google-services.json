@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "903304121170",
+    "firebase_url": "https://saversarena.firebaseio.com",
+    "project_id": "saversarena",
+    "storage_bucket": "saversarena.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903304121170:android:c89580f5a88597bac4088b",
+        "android_client_info": {
+          "package_name": "com.example.coronaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903304121170-oj0g0d4gf099jt8usqh3ndi7om1mnui8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coronaapp",
+            "certificate_hash": "09e22d76cecab692a5fd158408c7211af3259f55"
+          }
+        },
+        {
+          "client_id": "903304121170-7nnlhtr3m8a0cniq2eh020b6efh0s5jn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS5f-JWNsjooDXl_bNyYwqDUjPc6PI0dQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903304121170-7nnlhtr3m8a0cniq2eh020b6efh0s5jn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

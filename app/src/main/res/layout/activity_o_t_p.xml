@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".OTPActivity"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/enterPhoneText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your Mobile Number "
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/enterPhoneEdit" />
+
+    <EditText
+        android:id="@+id/enterPhoneEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="phone"
+        app:layout_constraintBottom_toTopOf="@+id/phoneOTPText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterPhoneText" />
+
+    <TextView
+        android:id="@+id/phoneOTPText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your OTP from "
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/enterPhoneEdit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/OTPEdit"
+        android:paddingTop="20dp"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="number"
+        android:id="@+id/OTPEdit"
+        app:layout_constraintTop_toBottomOf="@+id/phoneOTPText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/saveBtn"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/saveBtn"
+        app:layout_constraintTop_toBottomOf="@id/OTPEdit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="30dp"/>
+    
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterPhoneEdit"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

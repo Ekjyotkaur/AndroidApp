@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Savers Arena</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome"</string>
+    <string name="rightsReserved">All rights are reserved</string>
+    <string name="nameTag">Thank you for saving a life</string>
+</resources>
